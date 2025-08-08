@@ -11,7 +11,7 @@ setup(name='tap-appstore',
       py_modules=['tap-appstore'],
       install_requires=[
           'singer-python==5.12.2',
-          'appstoreconnect==0.10.1',
+          'appstoreconnect==0.10.0',
           'pytz==2018.4'
       ],
       entry_points='''
